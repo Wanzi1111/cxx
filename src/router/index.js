@@ -16,6 +16,14 @@ const router = createRouter({
       }
     },
     {
+      path: '/CxxInfo',
+      name: 'CxxInfo',
+      component: () => import(/* webpackChunkName: "CxxInfo" */ '@/views/CxxInfo.vue'),
+      meta: {
+        index: 1
+      }
+    },
+    {
       path: '/home',
       name: 'home',
       component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),

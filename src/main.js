@@ -5,6 +5,8 @@ import store from './store'
 import router from './router'
 import 'lib-flexible/flexible'
 import 'vant/lib/index.css'; // 全局引入样式
+import './assets/fonts/theFont.css'
+import lottie from 'vue-lottie'
 
 const app = createApp(App) // 创建实例
 
@@ -54,5 +56,6 @@ app.use(ActionBarButton)
 
 app.use(router)
 app.use(store)
+app.component("lottie", lottie)
 
 app.mount('#app')
