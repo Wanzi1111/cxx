@@ -6,6 +6,7 @@ import router from './router'
 import 'lib-flexible/flexible'
 import 'vant/lib/index.css'; // 全局引入样式
 import './assets/fonts/theFont.css'
+import './bootstrap.min.css' // 引入bootstrap布局
 import lottie from 'vue-lottie'
 
 const app = createApp(App) // 创建实例
